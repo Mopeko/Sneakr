@@ -1,0 +1,96 @@
+.sneakers-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    width: 100%; 
+    overflow-x: hidden; 
+    height: 100%;
+}
+
+.sneaker-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sneaker-item button {
+    margin-top: auto; 
+}
+
+.sneaker-item button {
+    margin-top: auto; 
+} 
+
+img {
+
+    width: 100%; 
+    height: auto; 
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 5%;
+    
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 5%;
+    
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    padding: 10px; 
+    cursor: pointer; 
+    width: 50%; 
+    border-radius: 5%;
+    margin: 5% ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin: 0;
+    background-color:rgb(250, 250, 250);
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 1%;
+    margin: 2%;
+}
+.login-button, .wishlist-button {
+    width: 15%; 
+}
+.pagination-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination-count{
+    width: 100%;
+}

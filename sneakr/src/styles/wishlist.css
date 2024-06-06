@@ -1,0 +1,22 @@
+.sneaker-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    height: 100%; /* Ensures that each item takes up the full height of its grid cell */
+    box-sizing: border-box;
+}
+.sneaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+h1{
+    margin-left:2%;
+}
+img {
+
+    width: 100%; 
+    height: auto; 
+}
